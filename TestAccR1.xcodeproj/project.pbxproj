@@ -13,6 +13,9 @@
 		8AC571E51B46E8F2007D3374 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC571E41B46E8F2007D3374 /* Images.xcassets */; };
 		8AC571E81B46E8F2007D3374 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC571E61B46E8F2007D3374 /* LaunchScreen.xib */; };
 		8AC571F41B46E8F2007D3374 /* TestAccR1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC571F31B46E8F2007D3374 /* TestAccR1Tests.swift */; };
+		8AC571FF1B46EA54007D3374 /* AccData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC571FD1B46EA54007D3374 /* AccData.swift */; };
+		8AC572001B46EA54007D3374 /* ActivityFindingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC571FE1B46EA54007D3374 /* ActivityFindingAlgorithm.swift */; };
+		8AC572021B46EACE007D3374 /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC572011B46EACE007D3374 /* FileLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		8AC571ED1B46E8F2007D3374 /* TestAccR1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAccR1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC571F21B46E8F2007D3374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AC571F31B46E8F2007D3374 /* TestAccR1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAccR1Tests.swift; sourceTree = "<group>"; };
+		8AC571FD1B46EA54007D3374 /* AccData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccData.swift; sourceTree = "<group>"; };
+		8AC571FE1B46EA54007D3374 /* ActivityFindingAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityFindingAlgorithm.swift; sourceTree = "<group>"; };
+		8AC572011B46EACE007D3374 /* FileLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		8AC571DA1B46E8F2007D3374 /* TestAccR1 */ = {
 			isa = PBXGroup;
 			children = (
+				8AC572011B46EACE007D3374 /* FileLogger.swift */,
+				8AC571FD1B46EA54007D3374 /* AccData.swift */,
+				8AC571FE1B46EA54007D3374 /* ActivityFindingAlgorithm.swift */,
 				8AC571DD1B46E8F2007D3374 /* AppDelegate.swift */,
 				8AC571DF1B46E8F2007D3374 /* ViewController.swift */,
 				8AC571E11B46E8F2007D3374 /* Main.storyboard */,
@@ -161,6 +170,11 @@
 				TargetAttributes = {
 					8AC571D71B46E8F2007D3374 = {
 						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					8AC571EC1B46E8F2007D3374 = {
 						CreatedOnToolsVersion = 6.4;
@@ -212,8 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC572001B46EA54007D3374 /* ActivityFindingAlgorithm.swift in Sources */,
 				8AC571E01B46E8F2007D3374 /* ViewController.swift in Sources */,
 				8AC571DE1B46E8F2007D3374 /* AppDelegate.swift in Sources */,
+				8AC572021B46EACE007D3374 /* FileLogger.swift in Sources */,
+				8AC571FF1B46EA54007D3374 /* AccData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestAccR1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestAccR1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +428,7 @@
 				8AC571F91B46E8F2007D3374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AC571FA1B46E8F2007D3374 /* Build configuration list for PBXNativeTarget "TestAccR1Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +437,7 @@
 				8AC571FC1B46E8F2007D3374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

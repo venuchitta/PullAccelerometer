@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestAccR1/ViewController.swift"
+            timestampString = "457633283.872692"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAccR1.ViewController.locationManager.getter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLLocationManager&gt;"
+                  moduleName = "TestAccR1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/VeNuS/Library/Mobile%20Documents/com~apple~CloudDocs/ios%20swift/TestAccR1/TestAccR1/ViewController.swift"
+                  timestampString = "457633318.08091"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAccR1.ViewController.locationManager.getter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLLocationManager&gt;"
+                  moduleName = "TestAccR1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/VeNuS/Library/Mobile%20Documents/com~apple~CloudDocs/ios%20swift/TestAccR1/TestAccR1/ViewController.swift"
+                  timestampString = "457633318.081074"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAccR1.ViewController.locationManager.setter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLLocationManager&gt;"
+                  moduleName = "TestAccR1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/VeNuS/Library/Mobile%20Documents/com~apple~CloudDocs/ios%20swift/TestAccR1/TestAccR1/ViewController.swift"
+                  timestampString = "457633318.081302"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAccR1.ViewController.init (TestAccR1.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; TestAccR1.ViewController"
+                  moduleName = "TestAccR1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/VeNuS/Library/Mobile%20Documents/com~apple~CloudDocs/ios%20swift/TestAccR1/TestAccR1/ViewController.swift"
+                  timestampString = "457633318.081597"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAccR1.ViewController.init (TestAccR1.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; TestAccR1.ViewController"
+                  moduleName = "TestAccR1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/VeNuS/Library/Mobile%20Documents/com~apple~CloudDocs/ios%20swift/TestAccR1/TestAccR1/ViewController.swift"
+                  timestampString = "457633318.08172"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestAccR1.ViewController.(locationManager.getter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.CLLocationManager&gt;).(closure #1)"
+                  moduleName = "TestAccR1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/VeNuS/Library/Mobile%20Documents/com~apple~CloudDocs/ios%20swift/TestAccR1/TestAccR1/ViewController.swift"
+                  timestampString = "457633318.081833"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
